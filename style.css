@@ -34,6 +34,9 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* for testing */
+    background: cornflowerblue;
+    display: none;
 }
 
 h1 {
@@ -55,6 +58,9 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* for testing */
+    background: cornflowerblue;
+    display: none;
 }
 
 #about-container {
@@ -72,5 +78,21 @@ h1 {
 /* STAFF */
 
 /* MAP */
+#map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* for testing */
+    background: cornflowerblue;
+    display: none;
+}
+
+#map h3 {
+    display: none;
+}
+
+#map iframe {
+    height: calc(100% - 140px);
+}
 
 /* CONTACT */
